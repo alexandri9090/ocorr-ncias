@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.imagem{
+    display: flex;
+    justify-content:space-around;
+   
+}
+img{
+    width: 150px;
+}
+body{
+    background-color: #2D752D;
+}
+.botao{
+    display: flex
+    ;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6vw;
+        
+        
+    
+}
+
+.botao2{
+    display: flex
+    ;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vw;
+ }
+button{
+ background-color: rgb(233, 91, 39);
+ padding: 40px 70px 40px 80px;
+ border-radius: 12px;
+ color: aliceblue;
+ font-size: 24px;
+ transition: all ease .5s;
+ cursor: pointer;
+ 
+  
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+h1{
+   margin-left: 47vw;
+    margin-top: 7vw;
+    color: aliceblue;
+    font-family: Inter;
+}
+.text{
+background-color: blue;
+width: 12vw;
+border-left: -12px;
+}
